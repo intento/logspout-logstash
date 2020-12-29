@@ -1,4 +1,4 @@
-FROM gliderlabs/logspout:v3.2.3
+FROM gliderlabs/logspout:v3.2.13
 ENV SYSLOG_FORMAT rfc3164
 
 RUN apk update && apk upgrade  # separate security updates are not available, so updating all packages
